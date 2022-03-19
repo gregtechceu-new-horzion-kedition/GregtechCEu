@@ -110,7 +110,7 @@ recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, 
 	[[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>], 
 	[smallCoil, laserEngraverHv, smallCoil], 
-	[<ore:plateStainlessSteel>, <ore:crystalfluix>, <ore:plateStainlessSteel>]]);
+	[<ore:plateStainlessSteel>, <ore:crystalFluix>, <ore:plateStainlessSteel>]]);
 
 // ME Wireless Access Point
 recipes.remove(<appliedenergistics2:wireless_access_point>);

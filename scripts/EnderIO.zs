@@ -117,12 +117,11 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();
 
 // Dark Steel Ingot
-electric_blast_furnace.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotSteel>, <ore:obsidian>])
     .outputs([<enderio:item_alloy_ingot:6>])
-    .duration(600)
-    .property("temperature", 1000)
-    .EUt(120)
+    .duration(160)
+    .EUt(32)
     .buildAndRegister();
 
 // Soularium Ingot
@@ -138,8 +137,8 @@ electric_blast_furnace.recipeBuilder()
     .inputs([<ore:ingotSteel>, <ore:obsidian>])
     .outputs([<enderio:item_alloy_ingot:8>])
     .duration(2000)
-    .property("temperature", 3600)
-    .EUt(500)
+    .property("temperature", 1000)
+    .EUt(120)
     .buildAndRegister();
 
 // Crude Steel Ingot
@@ -155,7 +154,7 @@ electric_blast_furnace.recipeBuilder()
     .inputs([<ore:ingotVibrantAlloy>, <ore:ingotAluminium>])
     .outputs([<enderio:item_alloy_endergy_ingot:1> *2])
     .duration(200)
-    .property("temperature", 1800)
+    .property("temperature", 1000)
     .EUt(120)
     .buildAndRegister();
 
@@ -164,7 +163,7 @@ electric_blast_furnace.recipeBuilder()
     .inputs([<ore:ingotCrystallineAlloy>, <ore:ingotAluminium>])
     .outputs([<enderio:item_alloy_endergy_ingot:2> *2])
     .duration(600)
-    .property("temperature", 2700)
+    .property("temperature", 1800)
     .EUt(120)
     .buildAndRegister();
 
@@ -173,8 +172,8 @@ electric_blast_furnace.recipeBuilder()
     .inputs([<ore:ingotSteel>, <ore:obsidian>])
     .outputs([<enderio:item_alloy_endergy_ingot:3>])
     .duration(2000)
-    .property("temperature", 4500)
-    .EUt(500)
+    .property("temperature", 2700)
+    .EUt(120)
     .buildAndRegister();
 
 // Energetic Silver Ingot
